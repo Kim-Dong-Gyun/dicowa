@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="./css/event_board.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="wrap">
+        <header class="header">
+            <div class="headerIn">
+                <h1 class="logo">
+                    <a href="#"><img src="./로고.png" alt="디코와"></a>
+                </h1>
+            
+                <nav class="nav">
+                    <a class="nav-link" href="#">공지</a>
+                    <a class="nav-link" href="#">인기채널</a>
+                    <a class="nav-link" href="#">채널홍보</a>
+                    <a class="nav-link" href="#">이벤트</a>
+                </nav>
+                
+                <div class="util">
+                    <ul class>
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">회원가입</a></li>
+                    </ul>
+                </div>
+            </div><!--.headerIn-->
+        </header><!--.header-->
+        <div id="container">
+            <div class="left-board">
+                <div class="user-box">
+                    <h6>김그린 회원님</h6>
+                    <ul>
+                        <li><a href="#">개인정보 수정</a></li>
+                        <li><a href="#">로그아웃</a></li>
+                    </ul>
+                </div>
+                <div class="left-index">
+                    <h6>게시판 모음</h6>
+                    <ul>
+                        <li><a href="#">공지 게시판</a></li>
+                        <li><a href="#">이벤트 게시판</a></li>
+                        <li><a href="#">채널홍보 게시판</a></li>
+                        <li><a href="#">인기채널 게시판</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="event">
+                <h2>이벤트홍보 게시판</h2>
+                <form action="#">
+                    <table class="event-board">
+                        <thead class="tblhead">
+                            <tr>
+                                <th>게시글 순번</th>
+                                <th>제목</th>
+                                <th>작성자</th>
+                                <th>작성일</th>
+                                <th>조회수</th>
+                                <th>추천수</th>
+                            </tr>
+                        </thead>
+                        <tbody class="tblbody">
+                            <tr>
+                                <td>1</td>
+                                <td><span class="category">[말머리]</span>&nbsp;&nbsp;<a href="#">가나다라마바사</a></td>
+                                <td>구운몽</td>
+                                <td>2022-12-08</td>
+                                <td>123</td>
+                                <td>12</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td><span class="category">[말머리]</span>&nbsp;&nbsp;<a href="#">가나다라마바사</a></td>
+                                <td>구운몽</td>
+                                <td>2022-12-08</td>
+                                <td>123</td>
+                                <td>12</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><span class="category">[말머리]</span>&nbsp;&nbsp;<a href="#">가나다라마바사</a></td>
+                                <td>구운몽</td>
+                                <td>2022-12-08</td>
+                                <td>123</td>
+                                <td>12</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><span class="category">[말머리]</span>&nbsp;&nbsp;<a href="#">가나다라마바사</a></td>
+                                <td>구운몽</td>
+                                <td>2022-12-08</td>
+                                <td>123</td>
+                                <td>12</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="write-btn">
+                        <button type="button" class="btn btn-light">글쓰기</button>
+                    </div>
+                    <div class="bottom">
+                        <s_paging>
+                            <div id="pagingM">
+                            <br>
+                            <a href="#" class="prev" title="이전페이지">◀ 이전 </a>
+                            <s_paging_rep><a href="#" class="num">1</a></s_paging_rep>
+                            <s_paging_rep><a href="#" class="num">2</a></s_paging_rep>
+                            <s_paging_rep><a href="#" class="num">3</a></s_paging_rep>
+                            <a href="#" class="prev" title="다음페이지">다음 ▶</a>
+                            <br />&nbsp;
+                            </div>
+                        </s_paging>
+                    </div>
+                </form>
+            </div>
+        </div> <!--#container-->
+
+        <footer id="footer">
+            <div class="footer-notice">
+                <div class="footerbox">
+                    <h5>채널 게시판</h5>
+                    <dl class="index">
+                        <dt>게임</dt>
+                        <dd>
+                            <a href="#">
+                                게임채널1
+                            </a>
+                        </dd>
+                        <dd>
+                            <a href="#">
+                                게임채널2
+                            </a>
+                        </dd>
+                        <dd>
+                            <a href="#">
+                                게임채널3
+                            </a>
+                        </dd>
+                        <dd>
+                            <a href="#">
+                                게임채널4
+                            </a>
+                        </dd>
+                    </dl>
+
+                    <dl class="index2">
+                        <dt>친목</dt>
+                        <dd>
+                            <a href="#">
+                                친목채널1
+                            </a>
+                        </dd>
+                        <dd>
+                            <a href="#">
+                                친목채널2
+                            </a>
+                        </dd>
+                        <dd>
+                            <a href="#">
+                                친목채널3
+                            </a>
+                        </dd>
+                        <dd>
+                            <a href="#">
+                                친목채널4
+                            </a>
+                        </dd>
+
+                    </dl>
+                    <dl class="index3">
+                        <dt>음악</dt>
+                        <dd>
+                            <a href="#">
+                                음악채널1
+                            </a>
+                        </dd>
+                        <dd>
+                            <a href="#">
+                                음악채널2
+                            </a>
+                        </dd>
+                        <dd>
+                            <a href="#">
+                                음악채널3
+                            </a>
+                        </dd>
+                        <dd>
+                            <a href="#">
+                                음악채널4
+                            </a>
+                        </dd>
+                    </dl>
+                    <dl class="index4">
+                        <dt>그림</dt>
+                        <dd>
+                            <a href="#">
+                                그림채널1
+                            </a>
+                        </dd>
+                        <dd>
+                            <a href="#">
+                                그림채널2
+                            </a>
+                        </dd>
+                        <dd>
+                            <a href="#">
+                                그림채널3
+                            </a>
+                        </dd>
+                        <dd>
+                            <a href="#">
+                                그림채널4
+                            </a>
+                        </dd>
+                    </dl>
+                    
+                </div>
+            </div>
+            <div class="footerInfo">
+                <ul>
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">제휴안내</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">청소년보호정책</a></li>
+                    <li><a href="#">광고안내</a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2022-2023 DICOWA . All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div> <!--#wrap-->
+    <script src="./js/notice.js"></script>
+</body>
+</html>

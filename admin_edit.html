@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/signup.css">
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div id="headerIn">
+                <h1 class="logo">
+                    <a href="#"><img src="./로고.png" alt="디코와"></a>
+                </h1>
+            
+                <nav class="nav">
+                    <a class="nav-link" href="#">회원등록</a>
+                    <a class="nav-link" href="#">회원정보수정</a>
+                    <a class="nav-link" href="#">공지게시판 관리</a>
+                    <a class="nav-link" href="#">인기게시판 관리</a>
+                    <a class="nav-link" href="#">홍보게시판 관리</a>
+                    <a class="nav-link" href="#">이벤트게시판 관리</a>
+                    <a class="nav-link" href="#">회원관리</a>
+                </nav>
+            </div><!--#headerIn-->
+        </header><!--#header-->
+
+        <div id="container">
+            <h2>회원정보수정 페이지</h2>
+            <form action="#">
+                <table class="signup_table">
+                    
+                    <tr>
+                        <th>회원번호</th>
+                        <td><input type="text" name="custno" id="custno"></td>
+                    </tr>
+                    
+                    <tr>
+                        <th>아이디</th>
+                        <td><input type="text" name="id" id="userid"></td>
+                    </tr>
+
+                    <tr>
+                        <th>비밀번호</th>
+                        <td><input type="text" name="pw" id="userpw"></td>
+                    </tr>
+
+                    <tr>
+                        <th>이름</th>
+                        <td><input type="text" name="name" id="username"></td>
+                    </tr>
+
+                    <tr>
+                        <th>전화번호</th>
+                        <td><input type="text" name="phone" id="userphone"></td>
+                    </tr>
+
+                    <tr>
+                        <th>이메일</th>
+                        <td><input type="text" name="email" id="useremail"></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <button type="reset">취소</button>
+                            <button type="submit">수정하기</button>
+                        </td>
+                    </tr>
+                </table>
+                
+            </form>
+        </div> <!--#container-->
+    </div>
+</body>
+</html>

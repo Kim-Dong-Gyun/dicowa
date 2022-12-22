@@ -1,0 +1,113 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: rgb(82, 80, 80);
+}
+
+ul, ol{
+    list-style: none;
+}
+
+img{
+    vertical-align: top;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#wrap{
+    background-color: #949cf5;
+    width: 100%;
+    height: auto;
+    min-width: 1240px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+#header{
+    
+    height: 80px;
+    margin-bottom: 50px;
+}
+
+.headerIn{
+    
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    height: 80px;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+#section{
+    
+    width: 800px;
+    height: 900px;
+    margin: 0 auto;
+
+}
+#section form{
+    border: 1px solid #eee;
+    margin-top: 100px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+form div{
+    
+    width: 480px;
+    margin: 0 auto;
+    
+    margin-bottom: 30px;
+    text-align: left;    
+}
+
+form p{
+    margin-bottom: -0.5px;
+    color: #222;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+form input #uid, #pwd, #repwd, #uname, #mobile{
+    width: 300px;
+    
+}
+
+form label{
+    margin-left: 20px;
+}
+
+
+
+.join_btn{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.join_btn button{
+    width: 100px;
+    height: 25px;
+    background-color: #949cf5;
+    margin: 0 20px;
+    border-radius: 5px;
+}

@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: rgb(82, 80, 80);
+}
+
+ul, ol{
+    list-style: none;
+}
+
+img{
+    vertical-align: top;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#wrap{
+    background-color: #949cf5;
+    width: 100%;
+    min-width: 1240px;
+    padding: 30px;
+}
+
+#header{
+    height: 80px;
+    margin-bottom: 50px;
+}
+
+#headerIn{
+    
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    height: 80px;
+}
+
+#headerIn ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 100px;
+    height: 80px;
+}
+
+.nav{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    
+}
+
+.nav a{
+    color :#ddd;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nav a{
+    margin-left: 30px;
+}
+
+.nav a:hover{
+    color: #4f5bd9;
+}
+
+#container{
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#container h2{
+    margin-bottom: 20px;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    border-bottom: 1px solid;
+}
+
+.admin_table{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.admin_tbody{
+    text-align: center;
+}
+
+.admin_tbody tr{
+    height: 30px;
+}
+
+.admin_tbody button{
+    background-color: rgb(252, 59, 59);
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#paging,
+  #pagingM {
+    width: 580px;
+    text-align: center;
+    line-height: 15px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+  
+#paging a.prev{
+    font: 3px;
+    color: #222;
+  
+}
+  
+#pagingM a.prev {
+    font-size: 3px;
+    color: #3e4ad6;
+}
+  
+#paging .selected,
+  #pagingM .selected {
+    font-weight: bold;
+    color: #c2c7fd;
+}
+  
+#paging a.num {
+    border: #AAAAAA 1px solid;
+    background-color: #eee;
+    color: #4f5bd9;
+    padding: 3px 6px;
+    margin: 3px;
+    font: 3px;
+}
+  
+#pagingM a.num {
+    border: #515ef0 1px solid;
+    background-color: #eee;
+    color: #4f5bd9;
+    padding: 3px 6px;
+    margin: 3px;
+    font-size: 1px;
+    
+}
+  
+#pagingM a:hover.num,
+  #paging a:hover.num {
+    border: #515ef0  3px solid
+}
+
+#footer{
+    
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+#footer .copyright{
+    
+    text-align: center;
+}
